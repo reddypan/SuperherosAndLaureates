@@ -13,7 +13,7 @@ class SuperheroesTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         Superheroes.shared.fetchJSONDataFromURL()
-        NotificationCenter.default.addObserver(self, selector:#selector(superHeroesDataDelivered(notification: )),name: NSNotification.Name("Superheroes squad - delivered"), object:nil)
+        NotificationCenter.default.addObserver(self, selector:#selector(superHeroesDataDelivered(notification: )),name: NSNotification.Name("Superheroes squad - delivered") , object:nil)
     }
     
     @objc func superHeroesDataDelivered(notification: Notification){
