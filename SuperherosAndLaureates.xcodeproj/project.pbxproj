@@ -13,6 +13,10 @@
 		3F1731502262C04800D3FA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F17314E2262C04800D3FA97 /* Main.storyboard */; };
 		3F1731522262C04900D3FA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1731512262C04900D3FA97 /* Assets.xcassets */; };
 		3F1731552262C04900D3FA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1731532262C04900D3FA97 /* LaunchScreen.storyboard */; };
+		3F17315D2262C1F100D3FA97 /* SuperheroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F17315C2262C1F100D3FA97 /* SuperheroTableViewController.swift */; };
+		3F17315F2262C22600D3FA97 /* LaureatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F17315E2262C22600D3FA97 /* LaureatesTableViewController.swift */; };
+		3F1731612262C2C900D3FA97 /* Super.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1731602262C2C900D3FA97 /* Super.swift */; };
+		3F1731632262C2E400D3FA97 /* Laureatesdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1731622262C2E400D3FA97 /* Laureatesdata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3F1731512262C04900D3FA97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1731542262C04900D3FA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1731562262C04900D3FA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F17315C2262C1F100D3FA97 /* SuperheroTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroTableViewController.swift; sourceTree = "<group>"; };
+		3F17315E2262C22600D3FA97 /* LaureatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureatesTableViewController.swift; sourceTree = "<group>"; };
+		3F1731602262C2C900D3FA97 /* Super.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Super.swift; sourceTree = "<group>"; };
+		3F1731622262C2E400D3FA97 /* Laureatesdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laureatesdata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				3F1731512262C04900D3FA97 /* Assets.xcassets */,
 				3F1731532262C04900D3FA97 /* LaunchScreen.storyboard */,
 				3F1731562262C04900D3FA97 /* Info.plist */,
+				3F17315C2262C1F100D3FA97 /* SuperheroTableViewController.swift */,
+				3F17315E2262C22600D3FA97 /* LaureatesTableViewController.swift */,
+				3F1731602262C2C900D3FA97 /* Super.swift */,
+				3F1731622262C2E400D3FA97 /* Laureatesdata.swift */,
 			);
 			path = SuperherosAndLaureates;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F17315F2262C22600D3FA97 /* LaureatesTableViewController.swift in Sources */,
+				3F1731632262C2E400D3FA97 /* Laureatesdata.swift in Sources */,
+				3F1731612262C2C900D3FA97 /* Super.swift in Sources */,
 				3F17314D2262C04800D3FA97 /* SecondViewController.swift in Sources */,
+				3F17315D2262C1F100D3FA97 /* SuperheroTableViewController.swift in Sources */,
 				3F1731492262C04800D3FA97 /* AppDelegate.swift in Sources */,
 				3F17314B2262C04800D3FA97 /* FirstViewController.swift in Sources */,
 			);
